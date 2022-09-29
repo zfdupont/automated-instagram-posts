@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "automatic-instagram-poster"
+version = "0.1.0"
+description = ""
+authors = ["Zachary Dupont", "Shah Rifat Alam"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+pyppeteer = "^1.0.2"
+pyppeteer-stealth = "^2.7.3"
+
+[build-system]
+requires = ["poetry-core>=1.2.1"]
+build-backend = "poetry.core.masonry.api"
